@@ -1,4 +1,3 @@
 import datetime
-m = datetime.datetime.today()
-print (m.strftime("%f"))
-print(m)
+x=datetime.datetime.now()
+print(x.strftime("%H:%M:%S"))
