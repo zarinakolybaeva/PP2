@@ -23,8 +23,7 @@ pygame.init()
 screen = pygame.display.set_mode(size)
 done = False
 
-clock = pygame.time.Clock()
-fps = 1
+
 
 im_min = get_image('images/seconds_arrow.png')
 im_sec = get_image('images/minutes_arrow.png')
@@ -63,4 +62,4 @@ while not done:
     screen.blit(time_render, (190, 345))
 
     pygame.display.flip()
-    clock.tick(fps)
+    
